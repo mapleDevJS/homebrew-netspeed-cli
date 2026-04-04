@@ -9,7 +9,7 @@ class NetspeedCli < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", "--root", prefix, "--path", "."
+    system "cargo", "install", *std_cargo_args
 
     # Install shell completions
     bash_completion.install "completions/netspeed-cli.bash" => "netspeed-cli"
