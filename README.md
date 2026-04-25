@@ -5,7 +5,7 @@ Homebrew tap for [netspeed-cli](https://github.com/mapleDevJS/netspeed-cli) — 
 ## Install
 
 ```bash
-brew install mapledevjs/netspeed-cli/netspeed-cli
+brew install mapleDevJS/homebrew-netspeed-cli/netspeed-cli
 ```
 
 ## Features
