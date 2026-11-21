@@ -8,7 +8,7 @@ class NetspeedCli < Formula
 
   livecheck do
     url :stable
-    regex(/^v?(\\d+(?:\\.\\d+)+)$/i)
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
   depends_on "rust" => :build
